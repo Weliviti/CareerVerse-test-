@@ -8,9 +8,7 @@
 body {
     min-height: 100vh;
     background: linear-gradient(135deg, #e0f7f4, #f0fdfa);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 /* CONTAINER */
@@ -101,4 +99,53 @@ body {
 
 .switch-text a:hover {
     text-decoration: underline;
+}
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #009688;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    color: #009688;
+}
+
+.auth-buttons a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login {
+    color: #333;
+}
+
+.signup {
+    padding: 8px 16px;
+    background: #009688;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.signup:hover {
+    background: #00796b;
 }
