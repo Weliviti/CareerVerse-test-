@@ -37,31 +37,32 @@
                 Create your account to discover your career path
             </p>
 
-            <form>
+            <form id="signupForm">
                 <div class="input-group">
                     <span class="icon">👤</span>
-                    <input type="text" placeholder="Full Name" required>
+                    <input type="text" placeholder="Full Name" name="fullname" required>
                 </div>
 
                 <div class="input-group">
                     <span class="icon">📧</span>
-                    <input type="email" placeholder="Email Address" required>
+                    <input type="email" placeholder="Email Address" name="email" required>
                 </div>
 
                 <div class="input-group">
                     <span class="icon">🔒</span>
-                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="Password" name="password" required>
                 </div>
 
                 <div class="input-group">
                     <span class="icon">🔒</span>
-                    <input type="password" placeholder="Confirm Password" required>
+                    <input type="password" placeholder="Confirm Password" name="confirmPassword" required>
                 </div>
 
                 <button type="submit" class="btn-primary">
                     Create Account
                 </button>
             </form>
+
 
             <p class="switch-text">
                 Already have an account?
@@ -74,6 +75,6 @@
     <!-- Footer -->
     <div id="footer"></div>
 
-    <script src="../js/main.js"></script>
+    <script src="../javaScript/main.js"></script>
 </body>
 </html>
